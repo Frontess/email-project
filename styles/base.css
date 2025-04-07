@@ -102,37 +102,39 @@ table {
 }
 
 /* стили, если у пользователя активирован темный режим в системе или почтовом клиенте */
+
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212; /* Темный фон */
-    color: #ffffff; /* Светлый текст */
+    background-color: #121212 !important;
+    color: #ffffff !important;
   }
 
   table {
-    background-color: #222222; /* Темный фон таблицы */
-    border-color: #333333; /* Темная рамка */
+    background-color: #222222 !important;
+    border-color: #333333 !important; 
   }
-
+  
   .header {
-    background: linear-gradient(90deg, #4caf50, #2e7d32); /* Темный градиент шапки */
-    color: #ffffff;
+    background: linear-gradient(90deg, #4caf50, #2e7d32) !important;
+    color: #ffffff !important;
   }
 
   .cta-button {
-    background-color: #4caf50; /* Темная кнопка */
-    color: #ffffff; /* Светлый текст кнопки */
+    background-color: #4caf50 !important;
+    color: #ffffff !important;
   }
 
   .cta-button:hover {
-    background-color: #388e3c; /* Цвет при наведении */
+    background-color: #388e3c !important;
   }
 
   .footer {
-    background-color: #1a1a1a; /* Темный фон футера */
-    color: #bbbbbb; /* Светло-серый текст */
+    background-color: #1a1a1a !important;
+    color: #bbbbbb !important;
   }
 
   .social-icons img {
-    filter: brightness(0.8); /* Снижение яркости для иконок */
-  }
+    filter: brightness(0.8) !important;
+  }  
 }
+
