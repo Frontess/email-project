@@ -1,0 +1,102 @@
+/* Базовые стили для письма */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(90deg, #f76c6c, #ffc107);
+  color: #ffffff;
+  padding: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f76c6c;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d55353;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+
+.social-icons {
+  line-height: 0;
+  text-align: center;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 5px;
+  display: inline-block; /* Изменено для правильного выравнивания */
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Адаптивные стили */
+@media screen and (max-width: 600px) {
+  table {
+    width: 100%;
+    border-radius: 0; /* Уберите скругление на мобильных устройствах */
+  }
+
+  .header {
+    font-size: 22px;
+    padding: 15px; /* Уменьшите отступы */
+  }
+
+  .cta-button {
+    width: 90%; /* Сделайте кнопку шире */
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  img {
+    max-width: 100%; /* Адаптивные изображения */
+    height: auto;
+  }
+
+  .social-icons img {
+    width: 20px; /* Уменьшите размер иконок */
+    height: 20px;
+  }
+
+  .footer {
+    font-size: 12px; /* Уменьшите размер текста */
+    padding: 8px;
+  }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Сладкий Мир: Откройте НОВЫЕ вкусы!</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+        background-color: #fafafa;
+      }
+      table {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      td {
+        padding: 20px;
+        text-align: center;
+      }
+      .header {
+        background: linear-gradient(90deg, #f76c6c, #ffc107);
+        color: #ffffff;
+        font-size: 28px;
+        padding: 20px;
+      }
+      .highlight {
+        color: #f76c6c;
+        font-weight: bold;
+      }
+      .cta-button {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #f76c6c;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+      }
+      .cta-button:hover {
+        background-color: #d55353;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      .footer {
+        background-color: #f1f1f1;
+        color: #666666;
+        font-size: 14px;
+        padding: 10px;
+      }
+      .social-icons {
+        line-height: 0;
+        text-align: center;
+        display: inline-block; /* Гарантируем компактное размещение */
+      }
+
+      .social-icons a {
+        display: inline-block; /* Убираем лишние пробелы вокруг иконок */
+        text-decoration: none; /* Убираем подчеркивание ссылки */
+      }
+
+      .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin: 0 5px;
+        display: inline-block; 
+        vertical-align: middle; 
+        transition: transform 0.3s ease;
+      }
+
+      .social-icons img:hover {
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- Шапка -->
+      <tr>
+        <td class="header">
+          Добро пожаловать в мир <span class="highlight">сладостей!</span>
+        </td>
+      </tr>
+
+      <!-- Основное содержимое -->
+      <tr>
+        <td>
+          <h2>Мы представляем НОВИНКУ!</h2>
+          <p>
+            Попробуйте наши эксклюзивные кондитерские изделия с натуральными
+            ингредиентами и вдохновением от лучших мастеров.
+          </p>
+          <img
+            src="images/chocolate-delight.jpg"
+            alt="Шоколадное наслаждение"
+          />
+          <p>Получите до 20% скидки на первый заказ!</p>
+          <a href="https://example.com" class="cta-button">Купить сейчас</a>
+        </td>
+      </tr>
+
+      <!-- Футер -->
+      <tr>
+        <td class="footer">
+          <p>
+            Подпишитесь на нас в социальных сетях, чтобы быть в курсе всех
+            новинок!
+          </p>
+          <div class="social-icons">
+            <a href="https://facebook.com">
+              <img src="images/facebook-icon.png" alt="Facebook" />
+            </a>
+            <a href="https://instagram.com">
+              <img src="images/instagram-icon.png" alt="Instagram" />
+            </a>
+            <a href="https://twitter.com">
+              <img src="images/twitter-icon.png" alt="Twitter" />
+            </a>
+          </div>
+          <p>© 2025 Сладкий Мир. Все права защищены.</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
