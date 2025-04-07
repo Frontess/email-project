@@ -111,9 +111,9 @@ table {
 
   table {
     background-color: #222222 !important;
-    border-color: #333333 !important; 
+    border-color: #333333 !important;
   }
-  
+
   .header {
     background: linear-gradient(90deg, #4caf50, #2e7d32) !important;
     color: #ffffff !important;
@@ -135,6 +135,6 @@ table {
 
   .social-icons img {
     filter: brightness(0.8) !important;
-  }  
+  }
 }
 
